@@ -4,6 +4,9 @@
 
 This code file is designed to take a sample of local csv files and upload them to cloud based storage within Google Big Query.
 
+**local data and authentication keys not included for anonymity reasons.
+
+
 # Process
 
 We begin this file by conducting to our Goggle Big Query Project, and authenticating our service account. Once we have authenticated access we will begin our upload process by making our data funnel idempotent. I will check my project for any existing tables that match my regex search pattern and delete any matches.
